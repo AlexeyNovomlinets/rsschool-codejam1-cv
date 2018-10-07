@@ -1,0 +1,97 @@
+body {
+	display: block;
+	max-width: 1024px;
+	min-width: 1024px;
+	min-height: 1300px;
+	margin-left: auto;
+    margin-right: auto;
+    background-color: #E7E7E7;
+    background-image: url('../img/background.jpg');
+    background-repeat: repeat;
+}
+
+/*header css style*/
+.header-top {
+	position: static;
+	max-width: 1024px;
+	height: 20px;
+	background-color: #ABDAD0;
+	margin-top: 20px;
+	border-radius: 8px 8px 0 0;
+}
+
+.header-content {
+	display: block;
+	background-color: #F9F8F4;
+	max-width: 1024px;
+	height: 250px;
+}
+
+.header-avatar-bg {
+	display: inline-block;
+	position: absolute;
+	background-color: #FFF;
+	border-radius: 8px;
+	padding: 10px;
+	margin: 20px 0 0 40px;
+	width: 180px;
+	height: 225px;
+}
+
+.header-first-name {
+	display: inline-block;
+	position: relative;
+	text-transform: uppercase;
+	font-family: Montserrat, 'Times New Roman', serif;
+	letter-spacing: 6px;
+	font-size: 34px;
+	top: 60px;
+	left: 30%;
+}
+
+.header-second-name {
+	display: inline-block;
+	position: relative;
+	text-transform: uppercase;
+	font-family: Montserrat, 'Times New Roman', serif;
+	letter-spacing: 6px;
+	font-size: 34px;
+	width: 200px;
+	color: #ABDAD0;
+	top: 60px;
+	left: 35%;
+}
+
+.header-line {
+	display: inline-block;
+	position: absolute;
+	color: #F9F8F4;
+	width: 350px;
+	margin-top: 110px;
+}
+
+.header-profession {
+	display: inline-block;
+	position: relative;
+	text-transform: uppercase;
+	font-family: Montserrat, 'Times New Roman', serif;
+	font-size: 18px;
+	top: 140px;
+	left: 20px;
+}
+
+.header-border {
+	max-width: 1024px;
+	height: 40px;
+	background-color: #F9F8F4;
+}
+
+.header-border-bg{
+	display: inline-block;
+	height: 10px;
+	width: 840px;
+	border-radius: 4px;
+	background-color: #E7E7E7;
+	margin-left: 8%;
+	margin-top: 20px;
+}
