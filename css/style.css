@@ -209,3 +209,22 @@ aside {
 	padding-top: 5px;
 	color: #404040;
 }
+
+/*footer css style*/
+.footer-bg {
+	float: left;
+	max-width: 1024px;
+	width: 1024px;
+	background-color: #404040;
+	color: #FFF;
+	font-size: 13px;
+	height: 20px;
+	margin-bottom: 20px;
+	border-radius: 0 0 8px 8px;
+}
+
+.footer-bg p {
+	float: right;
+	padding-top: 3px;
+	padding-right: 10px;
+}
