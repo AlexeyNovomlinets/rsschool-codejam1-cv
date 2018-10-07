@@ -230,3 +230,99 @@ aside {
 	padding-top: 3px;
 	padding-right: 10px;
 }
+
+/*responsive css style*/
+@media only screen and (max-width: 1054px) {
+   body {
+      width: 95%;
+      margin: 10px auto;
+      min-width: 95%;
+   }
+
+   article, .aside-section-content {
+      width: 73%;
+   }
+
+   aside {
+      width: 27%;
+   }
+
+   .main-section-content {
+      width: 95%;
+   }
+
+   .header-border-bg {
+      width: 85%;
+   }
+
+   footer {
+      min-width: 100%;
+   }
+
+   .footer-bg {
+      width: 100%;
+   }
+}
+
+@media only screen and (max-width: 1000px) {
+   aside {
+      display: block;
+      width: 100%;
+      border-top: 1px solid #DEDEDE;
+      padding: 0 40px 10px 60px;
+      min-height: fit-content;
+   }
+
+   article {
+      width: 100%;
+      min-height: fit-content;
+      padding-bottom: 20px;
+   }
+
+   .header-first-name, .header-second-name {
+      font-size: calc(20px + (34 - 20)*(100vw - 400px)/(1000 - 400));
+   }
+
+   .header-line {
+      width: 45%;
+      left: 35%;
+   }
+}
+
+@media only screen and (max-width: 800px) {
+   .header-first-name, .header-second-name {
+      display: block;
+      left: 43%
+   }
+
+   .header-line {
+      left: 45%;
+      margin-top: 80px;
+   }
+
+
+   .header-profession {
+      width: 45%;
+      left: 45%;
+      top: 120px;
+   }
+}
+
+@media only screen and (max-width: 600px) {
+   .header-avatar-bg {
+      width: 30%;
+      height: auto;
+   }
+}
+
+@media only screen and (max-width: 360px) {
+   .header-profession {
+      width: 100%;
+      left: 7%;
+      top: 120px;
+   }
+
+   .header-content {
+      height: 200px;
+   }
+}
